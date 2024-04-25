@@ -4,7 +4,7 @@
     <li>Application and Routes</li>
     <li>Templates</li>
     <li>Admin Page</li>
-    <li></li>
+    <li>Database and Migrations</li>
     <li></li>
     <li></li>
     <li></li>
@@ -49,4 +49,14 @@ python3 manage.py migrate
 6) Creates an Admin User
 ```
 python3 manage.py createsuperuser 
+```
+
+7) Returns SQL code on the migration
+```
+python3 manage.py sqlmigrate blog 0001
+```
+
+8) Use the Shell
+```
+python3 manage.py shell
 ```
