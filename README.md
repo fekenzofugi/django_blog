@@ -2,7 +2,7 @@
 <ol>
     <li>Project Setup</li>
     <li>Application and Routes</li>
-    <li></li>
+    <li>Templates</li>
     <li></li>
     <li></li>
     <li></li>
