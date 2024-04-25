@@ -3,7 +3,7 @@
     <li>Project Setup</li>
     <li>Application and Routes</li>
     <li>Templates</li>
-    <li></li>
+    <li>Admin Page</li>
     <li></li>
     <li></li>
     <li></li>
@@ -36,4 +36,17 @@ python3 manage.py runserver
 python3 manage.py startapp app_name
 ```
 
-4)
+4) Prepares Django to make migrations
+```
+python3 manage.py makemigrations
+```
+
+5) Makes the migrations
+```
+python3 manage.py migrate
+```
+
+6) Creates an Admin User
+```
+python3 manage.py createsuperuser 
+```
