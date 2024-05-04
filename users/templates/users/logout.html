@@ -1,0 +1,11 @@
+{% extends "blog/base.html" %}
+{% block content %}
+
+  <h2>See You Next Time!</h2> 
+  <div class="border-top pt-3">
+    <form action="{% url 'logout' %}" method="post">
+      {% csrf_token %}
+      <button class='btn btn-outline-info' type="submit">Logout</button>
+    </form>
+  </div>
+{% endblock content %}

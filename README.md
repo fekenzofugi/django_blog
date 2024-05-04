@@ -5,8 +5,8 @@
     <li>Templates</li>
     <li>Admin Page</li>
     <li>Database and Migrations</li>
-    <li></li>
-    <li></li>
+    <li>User Registation</li>
+    <li>Login and Logout System</li>
     <li></li>
     <li></li>
     <li></li>
@@ -60,3 +60,19 @@ python3 manage.py sqlmigrate blog 0001
 ```
 python3 manage.py shell
 ```
+
+## Crispy
+1) pip install django_crispy_forms
+2) pip install crispy_bootstrap4
+3) Add both of these to INSTALLED_APPS:
+```
+'crispy_forms',
+'crispy_bootstrap4',
+```
+4) Add both of these at the bottom:
+```
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+```
+5) Use {% load crispy_forms_tags %} and {{ form|crispy }} in the html file.
