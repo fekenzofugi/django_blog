@@ -7,8 +7,8 @@
     <li>Database and Migrations</li>
     <li>User Registation</li>
     <li>Login and Logout System</li>
-    <li></li>
-    <li></li>
+    <li>User Profile and Picture</li>
+    <li>Update User Profile</li>
     <li></li>
     <li></li>
     <li></li>
